@@ -1,0 +1,71 @@
+:root {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(214, 226, 241);
+    --smokey: rgb(44, 44, 44);
+    --lighterblue:  rgb(129, 219, 231);
+    --fontcolor: rgb(141, 179, 223);
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px 20px 20px 0px;
+    background-color: var(--smokey);
+    color: var(--smokey);
+}
+
+header h1 {
+    font-size:42px;
+    text-align: center;
+    background-color: var(--lighterblue);
+    padding: 10px 10px 10px 50px;
+}
+
+.navigation {
+    margin-top: 25px;
+    margin-right: 2%;
+    margin-left: 6%;
+    font-size: 20px;
+    color: var(--fontcolor);
+}
+
+a:visited {
+    color: var(--lighterblue);
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.navigation ul li {
+    margin-left: 25px;
+}
+
+.coverPhoto {
+    position: relative;
+    text-align: center;
+    background-color: var(--fontcolor);
+    background-blend-mode: multiply;
+  }
+
+.bottom-right {
+    position: absolute;
+    top: 200px;
+    right: 10%;
+    font-size: 32px;
+    background-color: var(--lighterblue);
+    color: var(--smokey);
+    padding: 10px;
+  }
+
+
+
+
+
