@@ -23,6 +23,7 @@ header {
 }
 
 header h1 {
+    /* display: inline; */
     font-size: 42px;
     text-align: center;
     background-color: var(--lighterblue);
@@ -30,6 +31,9 @@ header h1 {
 }
 
 .navigation {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
     margin-top: 20px;
     margin-right: 2%;
     margin-left: 6%;
@@ -57,7 +61,8 @@ a:visited {
 }
 
 .navigation ul li {
-    margin-left: 25px;
+    color: var(--lighterblue);
+    margin-left: 15px;
 }
 
 .coverPhoto {
@@ -135,7 +140,7 @@ a:visited {
     }
 
     .block p {
-        margin-left: 10px;
+        text-align: center;
     }
 
     #work {
@@ -146,11 +151,15 @@ a:visited {
         margin-left: 10px;
     }
 
+    .navigation {
+        margin: 20px auto auto auto;
+        font-size: 75%;
+    }
+
 }
   
   
 @media screen and (max-width: 992px) {
-  
 
 
 }
