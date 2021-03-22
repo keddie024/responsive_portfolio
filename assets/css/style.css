@@ -51,6 +51,10 @@ a {
     border-color: var(--lighterblue);
 }
 
+a:link {
+    color: var(--lighterblue);
+}
+
 a:visited {
     color: var(--lighterblue);
 }
@@ -114,7 +118,12 @@ a:visited {
     margin-left: 65px;
 }
 
-
+#profileImage {
+    width: 274.4px;
+    height: 263.8px;
+    float: right;
+    padding: 0px 0px 0px 5px;
+}
 
 
 
@@ -142,6 +151,7 @@ a:visited {
 
     .block p {
         text-align: center;
+        margin-left: 5px;
     }
 
     #work {
@@ -157,10 +167,22 @@ a:visited {
         font-size: 75%;
     }
 
+    #profileImage {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
 }
   
   
 @media screen and (max-width: 992px) {
+
+    #profileImage {
+        width: 205.8px;
+        height: 197.85px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
 
 
 }
