@@ -86,38 +86,96 @@
     border-width: 3px;
 }
 
-.block p {
+.block #p1 {
     margin-left: 20px;
     color: var(--fontcolor);
 }
 
-.projectBox {
+.projectFlex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.project {
-    width: 500px;
-    height: 250px;
-    margin: 40px;
-    border: 1px solid blue;
+.projectBox {
+    /* position: relative; */
+    width: 600px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 5px solid var(--lighterblue);
     box-sizing: border-box;
+    color: var(--smokey);
+    text-align: left;
+}
+
+.projectInfo {
+    position: relative;
+    top: 10%;
+    font-size: 12px;
+    background-color: var(--lighterblue);
+    color: var(--smokey);
+    padding: 10px;
 }
 
 #project1 {
-    width: 1200px;
-    height: 600px;
+    width: 1240px;
+    height: 413.33px;
 }
 
-/* .projectImage1 {
-    display: block;
+#projectImage1 {
+    position: relative;
     background-image: url(../images/lopez-robin-apax4M-4kFI-unsplash.jpg);
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 100%;
-} */
+}
 
+#projectImage2 {
+    position: relative;
+    background-image: url(../images/pexels-pixabay-158826.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#projectImage3 {
+    position: relative;
+    background-image: url(../images/pexels-eduardo-rosas-907489.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#projectImage4 {
+    position: relative;
+    background-image: url(../images/pexels-ann-h-3482441.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#projectImage5 {
+    position: relative;
+    background-image: url(../images/pexels-pixabay-163703.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.imageText {
+    position: absolute;
+    bottom: 10%;
+    padding: 8px;
+    text-align: center;
+    color: var(--smokey);
+    background-color: var(--lighterblue);
+}
 
 
 #work {
@@ -131,13 +189,24 @@
 #profileImage {
     width: 274.4px;
     height: 263.8px;
-    float: right;
+    float: left;
     padding: 0px 0px 0px 5px;
 }
 
 
 
-
+.container {
+    position: relative;
+}
+.text-block {
+    position:absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 
 
