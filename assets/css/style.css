@@ -51,32 +51,41 @@
     color: var(--smokey);
 }
 
+.coverArea {
+    width: 100%;
+    height: 280px;
+}
+
 .coverPhoto {
     position: relative;
-    text-align: center;
+    background-image: url(../images/pexels-david-bartus-963278.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    text-align: right;
     background-color: rgb(64, 120, 180);
     background-blend-mode: multiply;
 }
 
-.subtitle-text {
+.subtitleText {
     position: absolute;
-    top: 200px;
-    right: 10%;
+    bottom: 40px;
+    right: 100px;
     font-size: 32px;
     background-color: var(--lighterblue);
     color: var(--smokey);
     padding: 10px;
 }
 
-.block {
+.article {
     display: flex;
     margin-top: 30px;
     margin-left: 100px;
     margin-right: 2%;
 }
 
-
-.block h1{
+.article h1{
     font-size: 42px;
     color: var(--fontcolor);
     padding: 10px;
@@ -86,9 +95,24 @@
     border-width: 3px;
 }
 
-.block #p1 {
-    margin-left: 20px;
+.article #p1 {
+    margin-left: 40px;
     color: var(--fontcolor);
+}
+
+#work {
+    margin-left: 115px;
+}
+
+#contact-me {
+    margin-left: 65px;
+}
+
+#profileImage {
+    width: 274.4px;
+    height: 263.8px;
+    float: left;
+    padding: 0px 0px 0px 5px;
 }
 
 .projectFlex {
@@ -98,7 +122,6 @@
 }
 
 .projectBox {
-    /* position: relative; */
     width: 600px;
     height: 200px;
     margin-left: 40px;
@@ -130,6 +153,14 @@
     background-position: center;
     width: 100%;
     height: 100%;
+    background-color: var(--fontcolor);
+    background-blend-mode: multiply;
+}
+
+#projectImage1:hover {
+    cursor: pointer;
+    background-color: var(--fontcolor);
+    background-blend-mode: normal;
 }
 
 #projectImage2 {
@@ -139,6 +170,14 @@
     background-position: center;
     width: 100%;
     height: 100%;
+    background-color: var(--fontcolor);
+    background-blend-mode: multiply;
+}
+
+#projectImage2:hover {
+    cursor: pointer;
+    background-color: var(--fontcolor);
+    background-blend-mode: normal;
 }
 
 #projectImage3 {
@@ -148,6 +187,14 @@
     background-position: center;
     width: 100%;
     height: 100%;
+    background-color: var(--fontcolor);
+    background-blend-mode: multiply;
+}
+
+#projectImage3:hover {
+    cursor: pointer;
+    background-color: var(--fontcolor);
+    background-blend-mode: normal;
 }
 
 #projectImage4 {
@@ -157,6 +204,14 @@
     background-position: center;
     width: 100%;
     height: 100%;
+    background-color: var(--fontcolor);
+    background-blend-mode: multiply;
+}
+
+#projectImage4:hover {
+    cursor: pointer;
+    background-color: var(--fontcolor);
+    background-blend-mode: normal;
 }
 
 #projectImage5 {
@@ -166,6 +221,14 @@
     background-position: center;
     width: 100%;
     height: 100%;
+    background-color: var(--fontcolor);
+    background-blend-mode: multiply;
+}
+
+#projectImage5:hover {
+    cursor: pointer;
+    background-color: var(--fontcolor);
+    background-blend-mode: normal;
 }
 
 .imageText {
@@ -177,62 +240,33 @@
     background-color: var(--lighterblue);
 }
 
-
-#work {
-    margin-left: 115px;
+.imageText h2 {
+    font-size: 24px;
 }
 
-#contact-me {
-    margin-left: 65px;
+.imageText p {
+    font-size: 12px;
+    text-align: left;
+    padding-top: 7px;
 }
-
-#profileImage {
-    width: 274.4px;
-    height: 263.8px;
-    float: left;
-    padding: 0px 0px 0px 5px;
-}
-
-
-
-.container {
-    position: relative;
-}
-.text-block {
-    position:absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-
-
-
-
-
-
-
 
 
 
 @media screen and (max-width: 768px) {
    
-    .block {
+    .article {
         flex-direction: column;
         margin-left: 10px;
         margin-right: 10px;
     }
 
-    .block h1 {
+    .article h1 {
         text-align: center;
         border-style: none none solid none;
         margin-bottom: 20px;
     }
 
-    .block p {
+    .article p {
         text-align: left;
         margin-left: 5px;
     }
@@ -245,29 +279,12 @@
         margin-left: 10px;
     }
 
-    /* .navbar {
-        margin: 20px auto auto auto;
-        font-size: 75%;
-    } */
-
     #profileImage {
         width: 205.8px;
         height: 197.85px;
         padding-bottom: 10px;
         padding-right: 10px;
     }
-
-    .subtitle-text {
-        position: absolute;
-
-        top: 200px;
-        right: 33.333%;
-        /* font-size: 32px;
-        background-color: var(--lighterblue);
-        color: var(--smokey);
-        padding: 10px; */
-    }
-
 }
   
   
@@ -278,7 +295,7 @@
         margin-right: 10px;
     }
 
-    .block h1 {
+    .article h1 {
         text-align: right;
     }
 
