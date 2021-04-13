@@ -16,9 +16,9 @@ The first iteration of my portfolio is complete. The code may not be optimized, 
 
 2: https://unsplash.com/photos/apax4M-4kFI
 
-3: https://www.pexels.com/photo/red-lights-in-line-on-black-surface-158826/
+3: https://www.pexels.com/photo/abstract-business-code-coder-270348/
 
-4: https://www.pexels.com/photo/white-and-black-laptop-computer-907489/
+4: https://www.pexels.com/photo/month-of-january-planner-760718/
 
 5: https://www.pexels.com/photo/pink-jigsaw-puzzle-piece-3482441/
 
